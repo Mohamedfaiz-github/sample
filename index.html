@@ -9,13 +9,18 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-image: url('bluebanner.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
 
         .login-container {
             max-width: 400px;
-            margin: 100px auto;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.8);
             padding: 20px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -55,7 +60,7 @@
 <body>
 
 <div class="login-container">
-    <img src="bluebanner.jpg" alt="Logo">
+    <img src="your-logo-image.jpg" alt="Logo"> <!-- Replace with your logo image URL -->
     <div class="login-form">
         <label for="username">Username:</label>
         <input type="text" id="username" name="username" required>
